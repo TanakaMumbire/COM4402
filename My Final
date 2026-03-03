@@ -6,7 +6,7 @@ score = 0
 print ("Please enter your name to begin")
 name = int (input())
 print("Hello", name , "Welcome to Holton college quizes created by Tanaka Mumbire .Brought to you by Superduper Software Makers LTD")
-Print("Please answer the following questions with 1 ,2 ,3 or 4. \nAlternitivley You can type out your answer as displayed. \n please note that answering this way is case sensitive and could effect your final result")
+Print("Please answer the following questions with 1 ,2 ,3 or 4. \nAlternitivley You can type out your answer as displayed.\nPlease note that answering this way is case sensitive and wrong input will effect your final result")
 Print("GOODLUCK, ",name , "Your quiz starts NOW")
 
 #INPUT INSTRUCTIONS PROVIDED#
@@ -14,8 +14,7 @@ Print("GOODLUCK, ",name , "Your quiz starts NOW")
 
   #QUESTION 1#
 
-answer1 == input("Question 1- What is software?: \n 1.Computer monitor\n 2.Eletrical wires
-\n 3.Set of instructions for hardware\n 4.Memory size\n Answer: ")
+answer1 == input("Question 1- What is software?:\n1.Computer monitor\n2.Eletrical wires\n 3.Set of instructions for hardware\n 4.Memory size\n Answer: ")
 
 #USING IF\ELSE TO RESPOND TO QUIZ USER#
 
@@ -32,8 +31,7 @@ else
 
 
     #QUESTION 2#
-answer2 == input ("Question 2- What does RAM Stand for?: \n 1.Robot Animation Movie \n 2.River Auto Motor
-\n 3.Radio Analysis Machine \n 4.Random Access Memory \n Answer: ")
+answer2 == input ("Question 2- What does RAM Stand for?:\n1.Robot Animation Movie \n2.River Auto Motor\n3.Radio Analysis Machine \n4.Random Access Memory \nAnswer: ")
 
 #USING IF\ELSE FOR QUESTION 2#
 
@@ -49,8 +47,7 @@ else
 
 
     #QUESTION 3#
-answer3 == input ("Question 3- What is the main purpose of a flowchart?:\n 1.To check computer storage 
-\n 2.To visualise a process \n 3.To look clever \n 4.To confuse the user \n Answer: ")
+answer3 == input ("Question 3- What is the main purpose of a flowchart?:\n1.To check computer storage \n2.To visualise a process \n3.To look clever \n 4.To confuse the user \nAnswer: ")
 
 #USING IF\ELSE FOR QUESTION 3#
 
@@ -66,8 +63,7 @@ else
 
 
     #QUESTION 4#
-answer4 == input ("Question4- in programming, what is a String?:\n 1.A sequence of characters representing text 
-\n 2.A sequence of numbers \n 3.Peice of thread \n 4.A command\n Answer: ")
+answer4 == input ("Question4- in programming, what is a String?:\n1.A sequence of characters representing text \n2.A sequence of numbers \n3.Peice of thread \n4.A command\n Answer: ")
 
 #USING IF/ELSE FOR QUESTION 4#
 
@@ -101,8 +97,7 @@ else
 
 
     #QUESTION 6#
-answer6 == input ("Question 6- What is the main purpose of a computer monitor?:\n 1.Keeping classroom warm 
-\n 2.Output display \n 3.Input device \n 4.Light source \n Answer: ")
+answer6 == input ("Question 6- What is the main purpose of a computer monitor?:\n 1.Keeping classroom warm \n2.Output display \n3.Input device \n4.Light source \n Answer: ")
 
 #USING IF/ELSE FOR QUESTION 6#
 
@@ -118,16 +113,21 @@ else
 
     
     #Question 7#
-answer7 == input ("Question 7- What does WWW stand for?:\n 1.Walk Walked Walking 
-\n 2.Worlds Working Wonders \n 3.World Wide Web \n 4.When Will We \n Answer: ")
+answer7 == input ("Question 7- What does WWW stand for?:\n1.Walk Walked Walking \n2.Worlds Working Wonders \n3.World Wide Web \n4.When Will We \nAnswer: ")
 
 #USING IF/ELSE FOR QUESTION 7#
 
 if
-    answer7 == "3" or anser7== "World Wide Web"
+    answer7 == "3" or answer7== "World Wide Web"
     score +=1
     print ("Good work.Thats right !")
-    print (" 3 more questions to go. \n SCORE: ",score)
+    print (" 3 more questions to go.\n SCORE: ",score)
 else
-    print ("The correct answer is 
+    print ("The right answer is 3: World Wide Web")
+    print ("SCORE: ",score)
+    print ("\n")
 
+
+   #QUESTION 8#
+#answer8 == input ("Question 8 which of the following is NOT a type of computer?:\n1.Smart phone \n2.Microwave \nAnswer: ")
+USING IF/ELSE FOR#

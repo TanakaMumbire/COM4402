@@ -1,38 +1,78 @@
+#ENSURING SCORE IS COUNTED FROM 0#
 score = 0
+
 #GREETINGS#
-print ("please enter your name to begin")
+print ("Please enter your name to begin")
 name = int (input())
 print("Hello", name , "Welcome to Holton college quizes created by Tanaka Mumbire .Brought to you by Superduper Software Makers LTD")
-Print("Please answer the following questions with, 1 ,2 ,3 or 4")
+Print("Please answer the following questions with 1 ,2 ,3 or 4")
+#INPUT INSTRUCTIONS PROVIDED#
 
 #QUESTION 1#
-answer1 == input("Question 1- What is software?: Computer monitor\n1.Eletrical wires
-\n2.Set of instructions for hardware\n3.Memory size\n4.\nAnswer: ")
+#ANSWER OPTIONS PRESENTED ON A NEWLINE USING \n#
+answer1 == input("Question 1- What is software?: \n 1.Computer monitor\n 2.Eletrical wires
+\n 3.Set of instructions for hardware\n 4.Memory size\n Answer: ")
 
 #USING IF\ELSE TO RESPOND TO QUIZ USER#
+
 if answer1 == "3" or answer1 == "Set of instuctions for hardware"
-  score += 1
-  print ("Great!")
-  print ("score: ",score)
-  print"\n")
+   score += 1
+   print ("SUPER!")
+   print ("score: ",score)
+   print("\n")
 else:
-  print ("incorrect. the correct answer was answer is 3:Set of instuctions for hardware too follow")
-  print ("score: " ,score)
-  print "\n"
+   print ("incorrect. the correct answer was answer is 3:Set of instuctions for hardware too follow")
+   print ("score: " ,score)
+   print ("\n")
+
 
 #QUESTION 2#
-answer2 == input ("Question 2- What does RAM Stand for?:Robot Animation Movie\n1.River Auto Motor
-\n2.Radio Analysis Machine\n3.Random Access Memory\n4.\nAnswer: ")
+answer2 == input ("Question 2- What does RAM Stand for?: \n 1.Robot Animation Movie \n 2.River Auto Motor
+\n 3.Radio Analysis Machine\n 4.Random Access Memory \n Answer: ")
 
-#USING IF\ELSE FOR QUIESTION 2#
+#USING IF\ELSE FOR QUESTION 2#
+
 if answer2 == "4" or answer2 == "Random Access Memory" 
-  score += 1
-  print ("Welldone")
-  print ("score: ", score)
+   score += 1
+   print ("WOW")
+   print ("SCORE: ", score)
 else:
-  print (Ooopsie.The correct answer is 4:Random Access Memory")
-  print ("score: ",score)
+   print ("Ooopsie.The correct answer is 4:Random Access Memory.")
+   print ("SCORE: ",score)
+   print ("\n")
+
 
 #QUESTION 3#
-answer3 == input ("
+answer3 == input ("Question 3- What is the main purpose of a flowchart?: \n 1.To check computer storage 
+\n 2.To visualise a process \n 3.To look clever \n 4.To confuse the user \n Answer: ")
+
+#USING IF\ELSE FOR QUESTION 3#
+
+if answer3 == "2" or answer3 == "To visualise a process"
+    score += 1
+    print ("Great Job!")
+    print ("SCORE: ", score)
+else:
+    print ("The correct answer is 2:To visualise a process.")
+    print ("SCORE: ", score)
+    Print ("\n"
+
+
+#QUESTION 4#
+answer4 == input ("Question4- in programming, what is a String?: \n 1.A sequence of characters representing text 
+\n 2.A sequence of numbers \n 3.Peice of thread \n 4.A command\n Answer: ")
+
+#USING IF/ELSE FOR QUESTION 4#
+
+if answer4 =="" or answer 4 == "" 
+     score += 1
+     print ("Amazing, that is correct")
+     print ("SCORE: ", score)
+else:
+     print ("Incorrect.The answer is 1:A sequence of characters representing text.")
+     print ("SCORE: ",score)
+
+
+
+
 

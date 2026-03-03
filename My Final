@@ -6,7 +6,7 @@ print("Hello", name , "Welcome to Holton college quizes created by Tanaka Mumbir
 Print("Please answer the following questions with, 1 ,2 ,3 or 4")
 
 #QUESTION 1#
-answer1 == input("What is software?: Computer monitor\n1.Eletrical wires
+answer1 == input("Question 1- What is software?: Computer monitor\n1.Eletrical wires
 \n2.Set of instructions for hardware\n3.Memory size\n4.\nAnswer: ")
 
 #USING IF\ELSE TO RESPOND TO QUIZ USER#
@@ -21,8 +21,7 @@ else:
   print "\n"
 
 #QUESTION 2#
-print ("Question 2")
-answer2 == input ("What does RAM Stand for?:Robot Animation Movie\n1.River Auto Motor
+answer2 == input ("Question 2- What does RAM Stand for?:Robot Animation Movie\n1.River Auto Motor
 \n2.Radio Analysis Machine\n3.Random Access Memory\n4.\nAnswer: ")
 
 #USING IF\ELSE FOR QUIESTION 2#
@@ -32,3 +31,8 @@ if answer2 == "4" or answer2 == "Random Access Memory"
   print ("score: ", score)
 else:
   print (Ooopsie.The correct answer is 4:Random Access Memory")
+  print ("score: ",score)
+
+#QUESTION 3#
+answer3 == input ("
+

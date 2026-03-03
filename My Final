@@ -6,6 +6,7 @@ print ("Please enter your name to begin")
 name = int (input())
 print("Hello", name , "Welcome to Holton college quizes created by Tanaka Mumbire .Brought to you by Superduper Software Makers LTD")
 Print("Please answer the following questions with 1 ,2 ,3 or 4")
+Print("GOODLUCK, ",name , "Your quiz starts NOW")
 #INPUT INSTRUCTIONS PROVIDED#
 
 #QUESTION 1#
@@ -55,7 +56,7 @@ if answer3 == "2" or answer3 == "To visualise a process"
 else:
     print ("The correct answer is 2:To visualise a process.")
     print ("SCORE: ", score)
-    Print ("\n"
+    Print ("\n")
 
 
 #QUESTION 4#
@@ -64,13 +65,21 @@ answer4 == input ("Question4- in programming, what is a String?: \n 1.A sequence
 
 #USING IF/ELSE FOR QUESTION 4#
 
-if answer4 =="" or answer 4 == "" 
+if answer4 == "1" or answer4 == "A sequence of characters representing text." 
      score += 1
      print ("Amazing, that is correct")
      print ("SCORE: ", score)
 else:
      print ("Incorrect.The answer is 1:A sequence of characters representing text.")
      print ("SCORE: ",score)
+     print ("\n")
+
+#QUESTION 5#
+answer5== input ("Question 5- ?: \n 1. \n 2. \n 3. \n 4. \n Answer: ")
+
+#USING IF/ELSE FOR QUESTION 5#
+
+
 
 
 

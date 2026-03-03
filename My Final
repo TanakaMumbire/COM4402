@@ -1,6 +1,7 @@
 #ENSURING SCORE IS COUNTED FROM 0#
 score =int (0) 
 answer = string
+#QUESTION PROMPTS??#
 
 #GREETINGS#
 
@@ -13,11 +14,10 @@ Print("GOODLUCK, ",name , "Your quiz starts NOW")
 #INPUT INSTRUCTIONS PROVIDED#
 #ANSWER OPTIONS PRESENTED ON A NEWLINE USING \n#
 
-while answer <=answer11 
+while answer <= answer11 
 
   #QUESTION 1#
-
-answer1 == input("Question 1- What is software?:\n1.Computer monitor\n2.Eletrical wires\n 3.Set of instructions for hardware\n 4.Memory size\n Answer: ")
+answer1 = input("Question 1- What is software?:\n1.Computer monitor\n2.Eletrical wires\n 3.Set of instructions for hardware\n 4.Memory size\n Answer: ")
 
 #USING IF\ELSE TO RESPOND TO QUIZ USER#
 
@@ -26,7 +26,7 @@ if
      score +=1
      print ("SUPER!")
      print ("score: ",score)
-     print("\n")
+     print ("\n")
 else
      print ("incorrect. the correct answer was answer is 3:Set of instuctions for hardware too follow")
      print ("score: " ,score)
@@ -34,7 +34,7 @@ else
 
 
     #QUESTION 2#
-answer2 == input ("Question 2- What does RAM Stand for?:\n1.Robot Animation Movie \n2.River Auto Motor\n3.Radio Analysis Machine \n4.Random Access Memory \nAnswer: ")
+answer2 = input("Question 2- What does RAM Stand for?:\n1.Robot Animation Movie \n2.River Auto Motor\n3.Radio Analysis Machine \n4.Random Access Memory \nAnswer: ")
 
 #USING IF\ELSE FOR QUESTION 2#
 
@@ -50,7 +50,7 @@ else
 
 
     #QUESTION 3#
-answer3 == input ("Question 3- What is the main purpose of a flowchart?:\n1.To check computer storage \n2.To visualise a process \n3.To look clever \n 4.To confuse the user \nAnswer: ")
+answer3 = input("Question 3- What is the main purpose of a flowchart?:\n1.To check computer storage \n2.To visualise a process \n3.To look clever \n 4.To confuse the user \nAnswer: ")
 
 #USING IF\ELSE FOR QUESTION 3#
 
@@ -66,7 +66,7 @@ else
 
 
     #QUESTION 4#
-answer4 == input ("Question4- In programming, what is a String?:\n1.A sequence of characters representing text \n2.A sequence of numbers \n3.Peice of thread \n4.A command\n Answer: ")
+answer4 = input("Question4- In programming, what is a String?:\n1.A sequence of characters representing text \n2.A sequence of numbers \n3.Peice of thread \n4.A command\n Answer: ")
 
 #USING IF/ELSE FOR QUESTION 4#
 
@@ -82,7 +82,7 @@ else
 
 
     #QUESTION 5#
-answer5 == input ("Question 5- When was the first general purpose computer invented?:\n 1.1800\n 2.1920 \n 3.1945 \n 4.1973 \n Answer: ")
+answer5 = input("Question 5- When was the first general purpose computer invented?:\n 1.1800\n 2.1920 \n 3.1945 \n 4.1973 \n Answer: ")
 
 #USING IF/ELSE FOR QUESTION 5#
 
@@ -99,7 +99,7 @@ else
 
 
     #QUESTION 6#
-answer6 == input ("Question 6- What is the main purpose of a computer monitor?:\n 1.Keeping classroom warm \n2.Output display \n3.Input device \n4.Light source \n Answer: ")
+answer6 = input("Question 6- What is the main purpose of a computer monitor?:\n 1.Keeping classroom warm \n2.Output display \n3.Input device \n4.Light source \n Answer: ")
 
 #USING IF/ELSE FOR QUESTION 6#
 
@@ -115,7 +115,7 @@ else
 
     
     #Question 7#
-answer7 == input ("Question 7- What does WWW stand for?:\n1.Walk Walked Walking \n2.Worlds Working Wonders \n3.World Wide Web \n4.When Will We \nAnswer: ")
+answer7 = input("Question 7- What does WWW stand for?:\n1.Walk Walked Walking \n2.Worlds Working Wonders \n3.World Wide Web \n4.When Will We \nAnswer: ")
 
 #USING IF/ELSE FOR QUESTION 7#
 
@@ -132,7 +132,7 @@ else
 
    #QUESTION 8#
 print question
-answer8 == input (\n1.Smart phone \n2.Microwave \n3.Laptop\n4.Micro computer\nAnswer: ")
+answer8 = input ("Question 8- Which of the following is not a computer?: \n1.Smart phone \n2.Microwave \n3.Laptop\n4.Micro computer\nAnswer: ")
 
 #USING IF/ELSE FOR QUESTION 8#
 
@@ -148,7 +148,7 @@ else
 
 
   #QUESTION 9#
-  answer9 == input ("Question 9- Which colour was not included in th windows 7 logo from the following?:\n1.Green \n2.Yellow \n3.Pink \n4.Blue \nAnswer: ")
+  answer9 = input ("Question 9- Which colour was not included in th windows 7 logo from the following?:\n1.Green \n2.Yellow \n3.Pink \n4.Blue \nAnswer: ")
 
 #USING IF/ELSE FOR QUESTION 9#
 
@@ -164,7 +164,7 @@ else
 
 
   #QUESTION 10#
-  answer10 == input ("Question 10: Which of the following is not an input device?:\n1.Keyboard \n2.Touchcreen \n3.Scanner \n4.Speakers \nAnswer: ")
+  answer10 = input ("Question 10: Which of the following is not an input device?:\n1.Keyboard \n2.Touchcreen \n3.Scanner \n4.Speakers \nAnswer: ")
 
 #USING IF/ELSE FOR QUESTION 10#
 

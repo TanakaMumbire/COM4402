@@ -1,0 +1,18 @@
+score = 0
+#GREETINGS#
+print ("please enter your name to begin")
+name = int (input())
+print("Hello", name , "Welcome to Holton college quizes created by Tanaka Mumbire .Brought to you by Superduper Software Makers LTD")
+Print("Please answer the following questions with, 1 ,2 ,3 or 4")
+#QUESTION 1#
+Answer1 == input("What is software?: Computer monitor\n1.Eletrical wires\n2.Set of instructions for hardware\n3.Memory size\nAnswer: ")
+#use if/else to respond to quizzer#
+if answer1 == "3" or answer1 == "Set of instuctions for hardware"
+  score += 1
+  print ("Great!")
+  print ("score: "),score)
+  print"\n")
+else:
+  print ("incorrect. the correct answer was answer 3:Set of instuctions for hardware too follow")
+  print ("score: " ,score)
+  print "\n"

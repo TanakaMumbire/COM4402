@@ -1,5 +1,6 @@
 #ENSURING SCORE IS COUNTED FROM 0#
-score = 0
+score =int (0) 
+answer = string
 
 #GREETINGS#
 
@@ -11,6 +12,8 @@ Print("GOODLUCK, ",name , "Your quiz starts NOW")
 
 #INPUT INSTRUCTIONS PROVIDED#
 #ANSWER OPTIONS PRESENTED ON A NEWLINE USING \n#
+
+while answer <=answer11 
 
   #QUESTION 1#
 
@@ -63,7 +66,7 @@ else
 
 
     #QUESTION 4#
-answer4 == input ("Question4- in programming, what is a String?:\n1.A sequence of characters representing text \n2.A sequence of numbers \n3.Peice of thread \n4.A command\n Answer: ")
+answer4 == input ("Question4- In programming, what is a String?:\n1.A sequence of characters representing text \n2.A sequence of numbers \n3.Peice of thread \n4.A command\n Answer: ")
 
 #USING IF/ELSE FOR QUESTION 4#
 
@@ -79,8 +82,7 @@ else
 
 
     #QUESTION 5#
-answer5 == input ("Question 5-When was the first general purpose computer invented?:\n 1.1800
-\n 2.1920 \n 3.1945 \n 4.1973 \n Answer: ")
+answer5 == input ("Question 5- When was the first general purpose computer invented?:\n 1.1800\n 2.1920 \n 3.1945 \n 4.1973 \n Answer: ")
 
 #USING IF/ELSE FOR QUESTION 5#
 
@@ -129,5 +131,46 @@ else
 
 
    #QUESTION 8#
-#answer8 == input ("Question 8 which of the following is NOT a type of computer?:\n1.Smart phone \n2.Microwave \nAnswer: ")
-USING IF/ELSE FOR#
+print question
+answer8 == input (\n1.Smart phone \n2.Microwave \n3.Laptop\n4.Micro computer\nAnswer: ")
+
+#USING IF/ELSE FOR QUESTION 8#
+
+if
+    answer8 =="2" or answer8 == "Microwave"
+    score +=1
+    print ("That IS Correct!!")
+    print ("SCORE: ",score)
+else
+    print ("Ooopsie, the answer is 2:Microwave")
+    print ("SCORE: ",score)
+    print ("\n")
+
+
+  #QUESTION 9#
+  answer9 == input ("Question 9- Which colour was not included in th windows 7 logo from the following?:\n1.Green \n2.Yellow \n3.Pink \n4.Blue \nAnswer: ")
+
+#USING IF/ELSE FOR QUESTION 9#
+
+if 
+    answer9 =="3" or answer9 =="Pink"
+    score +=1
+    print ("Nice!!")
+    print ("SCORE: ",score , "Last Question Coming up.")
+else
+    print ("The right answer was 3: Pink")
+    print ("SCORE: "score)
+    print ("\n")
+
+
+  #QUESTION 10#
+  answer10 == input ("Question 10: Which of the following is not an input device?:\n1.Keyboard \n2.Touchcreen \n3.Scanner \n4.Speakers \nAnswer: ")
+
+#USING IF/ELSE FOR QUESTION 10#
+
+if 
+    answer10 =="4" or answer10 == "Speaker"
+    score +=1
+    print ("Wow !!")
+else 
+    print ("The right answer was 4: Speakers")

@@ -1,7 +1,32 @@
+
+#MY_COM4402
+
+#QUESTION_PROMPTS??#
+#q1-("What is software?")
+#q2-("What does RAM stand for?")
+#q3-("What is the main purpose of a flowchart")
+#q4-("In programming, What is a string?")
+#q5-("When was the first general use computer invented?")
+#q6-("What is the main purpose of a computer monitor?")
+#q7-("What does WWW stand for?")
+#q8-("Which of the Following is NOT a computer?")
+#q9-("Which colour is not in the Windows 7 logo?")
+#q10-("Which of the following is not a an input device?")
+
+#ANSWER_PROMPTS=#
+#a1-("3")or("A set of instructions for hardware")
+#a2-("4")or("Random Access Memory?")
+#a3-("2")or("To visualise a process")
+#a4-("1")or("A sequence of characters representing text")
+#a5-("3")or("1945")
+#a6-("") or
+#a7-or("World Wide Web")
+#a8-("2")or("Microwave")
+#a9-("3")or("Pink")
+#10-("4")or(Speaker)
+
 #ENSURING SCORE IS COUNTED FROM 0#
-score =int (0) 
-answer = string
-#QUESTION PROMPTS??#
+score = 0
 
 #GREETINGS#
 
@@ -11,10 +36,10 @@ print("Hello", name , "Welcome to Holton college quizes created by Tanaka Mumbir
 Print("Please answer the following questions with 1 ,2 ,3 or 4. \nAlternitivley You can type out your answer as displayed.\nPlease note that answering this way is case sensitive and wrong input will effect your final result")
 Print("GOODLUCK, ",name , "Your quiz starts NOW")
 
+#QUIZ BEGINS.
 #INPUT INSTRUCTIONS PROVIDED#
 #ANSWER OPTIONS PRESENTED ON A NEWLINE USING \n#
-
-while answer <= answer11 
+ 
 
   #QUESTION 1#
 answer1 = input("Question 1- What is software?:\n1.Computer monitor\n2.Eletrical wires\n 3.Set of instructions for hardware\n 4.Memory size\n Answer: ")
@@ -43,6 +68,7 @@ if
      score +=1
      print ("WOW")
      print ("SCORE: ", score)
+     ("\n")
 else
      print ("Ooopsie.The correct answer is 4:Random Access Memory.")
      print ("SCORE: ",score)
@@ -148,7 +174,7 @@ else
 
 
   #QUESTION 9#
-  answer9 = input ("Question 9- Which colour was not included in th windows 7 logo from the following?:\n1.Green \n2.Yellow \n3.Pink \n4.Blue \nAnswer: ")
+  answer9 = input ("Question 9- Which colour is not included in the Windows 7 logo ?:\n1.Green \n2.Yellow \n3.Pink \n4.Blue \nAnswer: ")
 
 #USING IF/ELSE FOR QUESTION 9#
 
@@ -161,6 +187,7 @@ else
     print ("The right answer was 3: Pink")
     print ("SCORE: "score)
     print ("\n")
+    print ("LAST QUESTION AHEAD!!")
 
 
   #QUESTION 10#
@@ -172,5 +199,7 @@ if
     answer10 =="4" or answer10 == "Speaker"
     score +=1
     print ("Wow !!")
+    print ("Thank you ", name "for taking part in super duper quiz your total score is: "score / "10.")
 else 
     print ("The right answer was 4: Speakers")
+    print ()

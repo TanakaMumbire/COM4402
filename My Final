@@ -31,8 +31,7 @@ score = 0
 #GREETINGS#
 
 
-name = int (input())
-print ("please enter name to begin") 
+name = (input(Enter your name to begin quiz))
 print("Hello", name , "Welcome to Holton college quizes created by Tanaka Mumbire .Brought to you by Superduper Software Makers LTD")
 print("Please answer the following questions with 1 ,2 ,3 or 4. \nAlternitivley You can type out your answer as displayed.\nPlease note that answering this way is case sensitive and the wrong input will effect your final result")
 print("GOODLUCK, ",name)

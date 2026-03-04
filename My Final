@@ -31,10 +31,13 @@ score = 0
 #GREETINGS#
 
 
-name = input("please enter your name :")
-print("Hello", name , "Welcome to Holton college quizes created by Tanaka Mumbire .Brought to you by Superduper Software Makers LTD")
-print("Please answer the following questions with 1 ,2 ,3 or 4. \nAlternitivley You can type out your answer as displayed.\nPlease note that answering this way is case sensitive and the wrong input will effect your final result")
-print("GOODLUCK, ",name)
+fname = input("please enter your name :")
+print("Hello", fname , "Welcome to Holton college quizes created by Tanaka Mumbire.Brought to you by Superduper Software Makers LTD")
+print("\n")
+print("Please answer the following questions with 1 ,2 ,3 or 4.")
+print("\n")
+print("Alternitivley You can type out your answer as displayed.\nAnswering this way is case sensitive and the wrong input will effect your final result")
+print("GOODLUCK, ",fname)
 print("Your quiz starts NOW")
 
 #QUIZ BEGINS.#
@@ -43,7 +46,7 @@ print("Your quiz starts NOW")
  
 
   #QUESTION 1#
-answer1 = input("Question 1- What is software?:\n1.Computer monitor\n2.Eletrical wires\n 3.Set of instructions for hardware\n 4.Memory size\n Answer: ")
+answer1 = input("QUESTION 1- What is software?:\n1.Computer monitor\n2.Eletrical wires\n 3.Set of instructions for hardware\n 4.Memory size\n Answer: ")
 
 #USING IF\ELSE TO RESPOND TO QUIZ USER#
 
@@ -60,7 +63,7 @@ else:
 
 
     #QUESTION 2#
-answer2 = input("Question 2- What does RAM Stand for?:\n1.Robot Animation Movie \n2.River Auto Motor\n3.Radio Analysis Machine \n4.Random Access Memory \nAnswer: ")
+answer2 = input("QUESTION 2- What does RAM Stand for?:\n1.Robot Animation Movie \n2.River Auto Motor\n3.Radio Analysis Machine \n4.Random Access Memory \nAnswer: ")
 
 #USING IF\ELSE FOR QUESTION 2#
 if  answer2 == "4" or answer2 == ("Random Access Memory"):
@@ -75,14 +78,15 @@ else:
 
 
     #QUESTION 3#
-answer3 = input("Question 3- What is the main purpose of a flowchart?:\n1.To check computer storage \n2.To visualise a process \n3.To look clever \n 4.To confuse the user \nAnswer: ")
+answer3 = input("QUESTION 3- What is the main purpose of a flowchart?:\n1.To check computer storage \n2.To visualise a process \n3.To look clever \n 4.To confuse the user \nAnswer: ")
 
 #USING IF\ELSE FOR QUESTION 3#
 
 if  answer3 == "2" or answer3 == ("To visualise a process"):
     score = score + 1
-    print ("Great Job!")
+    print ("GREAT JOB!")
     print ("SCORE: ", score)
+    print ("\n")
 else: 
     print ("The correct answer is 2:To visualise a process.")
     print ("SCORE: ", score)
@@ -90,7 +94,7 @@ else:
 
 
     #QUESTION 4#
-answer4 = input("Question4- In programming, what is a String?:\n1.A sequence of characters representing text \n2.A sequence of numbers \n3.Peice of thread \n4.A command\n Answer: ")
+answer4 = input("QUESTION 4- In programming, what is a String?:\n1.A sequence of characters representing text \n2.A sequence of numbers \n3.Peice of thread \n4.A command\n Answer: ")
 
 #USING IF/ELSE FOR QUESTION 4#
 
@@ -98,6 +102,7 @@ if   answer4 == "1" or answer4 == ("A sequence of characters representing text."
      score = score + 1
      print ("Awesome, that is correct")
      print ("SCORE: ", score)
+     print ("\n")
 else:
      print ("Incorrect.The answer is 1:A sequence of characters representing text.")
      print ("SCORE: ",score)
@@ -105,7 +110,7 @@ else:
 
 
     #QUESTION 5#
-answer5 = input("Question 5- When was the first general purpose computer invented?:\n 1.1800\n 2.1920 \n 3.1945 \n 4.1973 \n Answer: ")
+answer5 = input("QUESTION 5- When was the first general purpose computer invented?:\n 1.1800\n 2.1920 \n 3.1945 \n 4.1973 \n Answer: ")
 
 #USING IF/ELSE FOR QUESTION 5#
 
@@ -113,6 +118,7 @@ if  answer5 == "3" or answer5 == ("1945"):
     score = score + 1 
     print ("Great, you are now half way through the QUIZ")
     print ("SCORE: " ,score)
+    print ("\n")
 else:
     print ("Oops the correct answer is 3: 1945")
     print (" You are now halfway through superduper quiz")
@@ -121,7 +127,7 @@ else:
 
 
     #QUESTION 6#
-answer6 = input("Question 6- What is the main purpose of a computer monitor?:\n 1.Keeping classroom warm \n2.Output display \n3.Input device \n4.Light source \n Answer: ")
+answer6 = input("QUESTION 6- What is the main purpose of a computer monitor?:\n 1.Keeping classroom warm \n2.Output display \n3.Input device \n4.Light source \n Answer: ")
 
 #USING IF/ELSE FOR QUESTION 6#
 
@@ -129,6 +135,7 @@ if  answer6 == "2" or answer6 == ("Output display"):
     score = score + 1
     print ("Nice, that is correct")
     print ("SCORE: ",score)
+    print ("\n")
 else:
     print ("Incorrect answer.Correct answer is 2: Output device")
     print ("SCORE: ",score)
@@ -136,7 +143,7 @@ else:
 
     
     #Question 7#
-answer7 = input("Question 7- What does WWW stand for?:\n1.Walk Walked Walking \n2.Worlds Working Wonders \n3.World Wide Web \n4.When Will We \nAnswer: ")
+answer7 = input("QUESTION 7- What does WWW stand for?:\n1.Walk Walked Walking \n2.Worlds Working Wonders \n3.World Wide Web \n4.When Will We \nAnswer: ")
 
 #USING IF/ELSE FOR QUESTION 7#
 
@@ -144,6 +151,7 @@ if  answer7 == "3" or answer7== ("World Wide Web"):
     score = score + 1
     print ("Good work.Thats right !")
     print (" 3 more questions to go.\n SCORE: ",score)
+    print ("\n")
 else:
     print ("The right answer is 3: World Wide Web")
     print ("SCORE: ",score)
@@ -152,7 +160,7 @@ else:
 
    #QUESTION 8#
 
-answer8 = input ("Question 8- Which of the following is not a computer?: \n1.Smart phone \n2.Microwave \n3.Laptop\n4.Micro computer\nAnswer: ")
+answer8 = input ("QUESTION 8- Which of the following is not a computer?: \n1.Smart phone \n2.Microwave \n3.Laptop\n4.Micro computer\nAnswer: ")
 
 #USING IF/ELSE FOR QUESTION 8#
 
@@ -175,6 +183,7 @@ if  answer9 =="3" or answer9 == ("Pink"):
     score = score + 1
     print ("Nice!!")
     print ("SCORE: ",score , "Last Question Coming up.")
+    print ("\n")
 else:
     print ("The right answer was 3: Pink")
     print ("SCORE: ", score)
@@ -190,9 +199,11 @@ answer10 = input ("Question 10: Which of the following is not an input device?:\
 if  answer10 =="4" or answer10 == ("Speaker"):
     score = score + 1
     print ("Wow !!")
-    print ("Thank you ", name , "for taking part in this super duper quiz")
-    print (" your Final score is:",score ,"/ 10.")
+    print ("\n")
+    print ("Thank you ", fname , "for taking part in this super duper quiz")
+    print (" your Final score is:", score,"/ 10.")
 else: 
     print ("The right answer was 4: Speakers")
-    print ("thank you ", name ,"for taking part in this super duper quiz")
-    print (" your Final score is :" ,score ,"/10.")
+    print ("\n")
+    print ("thank you ", fname ,"for taking part in this super duper quiz")
+    print (" your Final score is :" ,score,"/10.")

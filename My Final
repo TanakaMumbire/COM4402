@@ -210,7 +210,11 @@ else:
     print ("\n")
     print ("thank you ", fname ,"for taking part in this super duper quiz")
     print (" your Final score is :" ,score,"/10.")
-while score >= 5 :
-    restart_quiz = input ("type RESTART if you wish to RETAKE quiz\n otherwise exit screen")
-    restart_quiz == ("RESTART") or ("restart") or ("Restart")
+    print ("\n")
+    print ("\n")
 
+restart_quiz = input ("type RESTART or click SPACE and ENTER if you wish to RETAKE quiz\n otherwise exit screen")
+if restart_quiz == (" ") or ("RESTART") or ("restart") or ("Restart"):
+   Begin_quiz 
+else :
+    "exit Begin_quiz"

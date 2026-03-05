@@ -210,7 +210,7 @@ else:
     print ("\n")
     print ("thank you ", fname ,"for taking part in this super duper quiz")
     print (" your Final score is :" ,score,"/10.")
-while score <= 5 
-print ("You recieved less than 50%")
-restart_quiz == Begin_quiz
-restart_quiz = input (Please click enter if you wish to RETAKE quiz\n otherwise exit screen )
+while score >= 5 :
+    restart_quiz = input ("type RESTART if you wish to RETAKE quiz\n otherwise exit screen")
+    restart_quiz == ("RESTART") or ("restart") or ("Restart")
+

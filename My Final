@@ -39,7 +39,7 @@ print("\n")
 print("Alternitivley You can type out your answer as displayed.\nthis way is case sensitive and the wrong input will effect your final result")
 print("\n")
 print("GOODLUCK, ",fname)
-print("\n")
+Begin_quiz = input("CLICK ENTER TO START QUIZ")
 print("Your quiz starts NOW")
 
 #QUIZ BEGINS.#
@@ -204,8 +204,13 @@ if  answer10 =="4" or answer10 == ("Speaker"):
     print ("\n")
     print ("Thank you ", fname , "for taking part in this super duper quiz")
     print (" your Final score is:", score,"/ 10.")
+     
 else: 
     print ("The right answer was 4: Speakers")
     print ("\n")
     print ("thank you ", fname ,"for taking part in this super duper quiz")
     print (" your Final score is :" ,score,"/10.")
+while score <= 5 
+print ("You recieved less than 50%")
+restart_quiz == Begin_quiz
+restart_quiz = input (Please click enter if you wish to RETAKE quiz\n otherwise exit screen )

@@ -36,8 +36,10 @@ print("Hello", fname , "Welcome to Holton college quizes created by Tanaka Mumbi
 print("\n")
 print("Please answer the following questions with 1 ,2 ,3 or 4.")
 print("\n")
-print("Alternitivley You can type out your answer as displayed.\nAnswering this way is case sensitive and the wrong input will effect your final result")
+print("Alternitivley You can type out your answer as displayed.\nthis way is case sensitive and the wrong input will effect your final result")
+print("\n")
 print("GOODLUCK, ",fname)
+print("\n")
 print("Your quiz starts NOW")
 
 #QUIZ BEGINS.#

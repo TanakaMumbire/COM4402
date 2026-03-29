@@ -25,22 +25,22 @@
 #a9-("3")or("Pink")
 #10-("4")or(Speaker)
 
-#ENSURING SCORE IS COUNTED FROM 0#
+#ENSURING score IS COUNTED FROM 0#
 score = 0
-
-#GREETINGS#
-
-
 fname = input("please enter your name :")
-print("Hello", fname , "Welcome to Holton college quizes created by Tanaka Mumbire.Brought to you by Superduper Software Makers LTD")
-print("\n")
-print("Please answer the following questions with 1 ,2 ,3 or 4.")
-print("\n")
-print("Alternitivley You can type out your answer as displayed.\nthis way is case sensitive and the wrong input will effect your final result")
-print("\n")
-print("GOODLUCK, ",fname)
-Begin_quiz = input("CLICK ENTER TO START QUIZ")
-print("Your quiz starts NOW")
+def begin_quiz():
+#storing USER NAME#
+#GREETINGS#
+    print("Hello", fname , "Welcome to Holton college quizes created by Tanaka Mumbire.Brought to you by Superduper Software Makers LTD")
+    print("\n")
+    print("Please answer the following questions with 1 ,2 ,3 or 4.")
+    print("\n")
+    print("Alternitivley You can type out your answer as displayed.\nthis way is case sensitive and the wrong input will effect your final result")
+    print("\n")
+    print("GOODLUCK, ",fname)
+
+    begin_quiz = input ("CLICK ENTER TO START QUIZ")
+    print("Your quiz starts NOW")
 
 #QUIZ BEGINS.#
 #INPUT INSTRUCTIONS PROVIDED#
@@ -212,9 +212,9 @@ else:
     print (" your Final score is :" ,score,"/10.")
     print ("\n")
     print ("\n")
+    
 
-restart_quiz = input ("type RESTART or click SPACE and ENTER if you wish to RETAKE quiz\n otherwise exit screen")
-if restart_quiz == (" ") or ("RESTART") or ("restart") or ("Restart"):
-   Begin_quiz 
-else :
-    "exit Begin_quiz"
+#restart_quiz = input("type Restart and click ENTER if you wish to RETAKE quiz \n otherwise exit screen");
+
+#if restart_quiz == ("restart"):
+    begin_quiz#
